@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textSize="40sp"
+        android:textColor="@color/teal_700"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/track_feelings"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LET'S KEEP TRACK OF HOW WE FEEL"/>
+
+    <GridLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="2">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/help_resources"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HELP \nRESOURCES"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/positivity_diary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="POSITIVITY\n DIARY"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/health"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="HEALTH"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/goals"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GOALS"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/motivation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MOTIVATION"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/spiritual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SPIRITUAL"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/tapToPlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TAP AND \n PLAY"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/music"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MUSIC"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/edit_profile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFILE"/>
+
+</LinearLayout>

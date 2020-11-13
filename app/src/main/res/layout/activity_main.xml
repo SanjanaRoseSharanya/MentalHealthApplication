@@ -6,33 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView_appName"
-        android:layout_width="113dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="149dp"
-        android:layout_marginBottom="19dp"
-        android:text="Mental Health App"
-        app:layout_constraintBottom_toTopOf="@+id/imageView_appIcon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
-        android:id="@+id/imageView_appIcon"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="281dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_appName"
-        app:srcCompat="@color/purple_200"
-        tools:srcCompat="@color/purple_200" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo">
+
+    </ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
