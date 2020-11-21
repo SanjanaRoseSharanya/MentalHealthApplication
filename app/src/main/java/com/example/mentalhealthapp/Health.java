@@ -12,3 +12,4 @@ public class Health extends AppCompatActivity {
         setContentView(R.layout.activity_health);
     }
 }
+
